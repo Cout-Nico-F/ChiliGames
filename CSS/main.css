@@ -1,23 +1,46 @@
-h1{
-    text-align: center;
-}
 
 header{
-    background-color: black;
-    color: white;
+    background-color: cornflowerblue;
+}
+nav{
+    padding-top: 1.3rem;
+    padding-left: 0.6rem;
 }
 
-.nav{
-    background-color: grey;
-    color: white;
+.nav_buttons{
+    background-color: coral;
+    color:rgb(46, 46, 46);
     text-decoration: none;
-    padding: 4px;
+    font-size: 1.2rem;
+    padding: 1rem;
     border-radius: 5px;
 }
 
 footer{
-    background-color: black;
+    background-color: cornflowerblue;
     color: white;
     text-align: center;
     margin-top: 10px;
+}
+
+header > h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+#img_ChiliPepper{
+    max-width: 556px;
+    max-height: 372px;
+}
+
+#div_ImageAndIframe{
+    width: 550px;
+    margin: auto;
+
+}
+
+body > h3{
+    text-align: center;
 }
