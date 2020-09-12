@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(245, 241, 11, 0.959);
+   /* background-color: rgb(255, 199, 154); */
+}
 
 nav{
     text-align: center;
@@ -6,7 +10,7 @@ nav{
 }
 
 footer{
-    background-color: rgb(149, 147,195);
+    background-color: rgb(131, 131, 185);
     color: white;
     text-align: center;
     margin-top: auto;
