@@ -1,8 +1,4 @@
 
-header{
-    background-color: cornflowerblue;
-    border-radius: 1rem;
-}
 nav{
     text-align: center;
     padding-top: 1.3rem;
@@ -36,16 +32,20 @@ footer > p{
 }
 
 .nav_buttons{
+    margin: auto;
+    size: auto;
     background-color:sandybrown;
     color:rgb(46, 46, 46);
     text-decoration: none;
-    font-size: 1.2rem;
-    padding: 1rem;
-    border-radius: 1rem;
+    font-size: auto;
+    padding: 2vh;
+    border-radius: 2vh;
 }
-#img_ChiliPepper{
-    max-width: 556px;
-    max-height: 372px;
+
+
+#img_ChiliGamesBanner{
+    width: 100%;
+    border-radius: 4vh;
 }
 
 #div_ImageAndIframe{
