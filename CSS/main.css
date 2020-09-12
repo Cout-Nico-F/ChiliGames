@@ -53,7 +53,7 @@ footer > p{
         }
     }
 
-    @media screen and (min-width: 1260px)
+    @media screen and (min-width: 1260px) and (max-width: 1600px)
     {
         #iframe_KTCyoutube{
             display: grid;
@@ -66,6 +66,20 @@ footer > p{
             height: 315px;
         }
         
+    }
+
+    @media screen and (min-width: 1600px)
+    {
+        #iframe_KTCyoutube{
+            display: grid;
+            grid-template-columns: 35% 32% 32%;
+        }
+
+        #KTCyoutube1{
+            grid-column-start: 2;
+            width: 560px;
+            height: 315px;
+        }
     }
 
 #form_contact{
