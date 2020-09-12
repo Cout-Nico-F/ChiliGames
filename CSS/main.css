@@ -1,6 +1,5 @@
 body{
     background-color: rgba(245, 241, 11, 0.959);
-   /* background-color: rgb(255, 199, 154); */
 }
 
 nav{
@@ -17,9 +16,7 @@ footer{
     border-radius: 1rem;
 }
 
-body > h3{
-    text-align: center;
-}
+
 
 footer > p{
     text-align: center;
@@ -51,9 +48,13 @@ footer > p{
         #KTCyoutube1{
             height: auto;
         }
+        body > h3{
+            text-align: center;
+            font-size: 3.5vw;
+        }
     }
 
-    @media screen and (min-width: 1260px) and (max-width: 1600px)
+    @media screen and (min-width: 1260px) and (max-width: 1800px)
     {
         #iframe_KTCyoutube{
             display: grid;
@@ -65,10 +66,13 @@ footer > p{
             width: 560px;
             height: 315px;
         }
-        
+        body > h3{
+            text-align: center;
+            font-size: 2vw;
+        }   
     }
 
-    @media screen and (min-width: 1600px)
+    @media screen and (min-width: 1801px)
     {
         #iframe_KTCyoutube{
             display: grid;
@@ -79,6 +83,10 @@ footer > p{
             grid-column-start: 2;
             width: 560px;
             height: 315px;
+        }
+        body > h3{
+            text-align: center;
+            font-size: 2vw;
         }
     }
 
