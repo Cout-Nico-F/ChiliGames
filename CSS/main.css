@@ -6,7 +6,7 @@ nav{
 }
 
 footer{
-    background-color: cornflowerblue;
+    background-color: rgb(149, 147,195);
     color: white;
     text-align: center;
     margin-top: auto;
@@ -38,8 +38,13 @@ footer > p{
     border-radius: 4vh;
 }
 
-#div_ImageAndIframe{
-   padding-left: 17rem;
+#iframe_KTCyoutube{
+    display: grid;
+    grid-template-columns: 32% 35% 32%;
+}
+
+#KTCyoutube1{
+    grid-column-start: 2;
 }
 
 #form_contact{
