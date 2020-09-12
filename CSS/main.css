@@ -39,12 +39,31 @@ footer > p{
 }
 
 #iframe_KTCyoutube{
+    
     display: grid;
-    grid-template-columns: 32% 35% 32%;
+    @media (min-width: 480px)
+    {
+        text-align:center;
+    }
+    @media (min-width: 1600)
+    {
+        grid-template-columns: 32% 35% 32%;
+    }
+    
 }
 
 #KTCyoutube1{
     grid-column-start: 2;
+    @media (min-width: 480px)
+    {
+
+    }
+    @media (min-width:1600px)
+    {
+        width: 560px;
+        height: 315px;
+    }
+    
 }
 
 #form_contact{
