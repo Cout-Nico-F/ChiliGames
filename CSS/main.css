@@ -21,6 +21,7 @@ footer{
 footer > p{
     text-align: center;
     padding-top: 1rem;
+    font-size: 2vh;
 }
 
 .nav_buttons{
@@ -37,6 +38,24 @@ footer > p{
 #img_ChiliGamesBanner{
     width: 100%;
     border-radius: 4vh;
+}
+
+#author-buttons{
+    display: flex;
+    margin-top: 2vh;
+}
+
+#caronilartButton{
+    justify-content: left;
+}
+
+#coutButton{
+    justify-content: right;
+}
+
+#authors{
+    justify-content: center;
+    font-size: 3vh;
 }
 
 @media screen and (max-width: 1260px)
