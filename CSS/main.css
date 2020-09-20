@@ -114,3 +114,32 @@ footer > p{
     margin: auto;
     padding: 1rem;
 }
+
+.bounceCss3 {
+    animation: bounce 1.2s ease-out;
+}
+
+@keyframes bounce {
+    0% {
+      transform:translateY(-100%);
+      opacity: 0;
+    }
+    15% {
+        transform:translateY(0);
+    }
+    30% {
+        transform:translateY(-45%);
+    }
+    40% {
+        transform:translateY(0%);
+    }
+    50% {
+        transform:translateY(-20%);
+    }
+    70% {
+        transform:translateY(0%);
+    }
+    100% {
+        transform:translateY(0);
+      opacity: 1;
+    }
