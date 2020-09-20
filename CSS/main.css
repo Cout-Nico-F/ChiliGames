@@ -16,8 +16,6 @@ footer{
     border-radius: 1rem;
 }
 
-
-
 footer > p{
     text-align: center;
     padding-top: 1rem;
@@ -47,10 +45,12 @@ footer > p{
 
 #caronilartButton{
     justify-content: left;
+    background-color:rgb(230, 127, 161);
 }
 
 #coutButton{
     justify-content: right;
+    background-color: rgb(117, 199, 231);
 }
 
 #authors{
