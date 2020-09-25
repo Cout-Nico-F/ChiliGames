@@ -21,7 +21,7 @@ footer > p{
     text-align: inherit;
     padding-top: 0.9rem;
     font-size: 1.2vw;
-    color: maroon;
+    color: rgb(143, 6, 6);
     font-weight: bold;
 }
 
@@ -67,6 +67,11 @@ footer > p{
 
 #footCout{
     background-color: rgb(127, 143, 241);
+}
+
+#comingSoon{
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1260px)
@@ -137,6 +142,51 @@ footer > p{
 
 .bounceCss3 {
     animation: bounce 1.2s ease-out;
+}
+
+.rezize-glowCss3 {
+    animation: rezize-glow 1.5s ease-in-out;
+    animation-iteration-count: 2;
+}
+
+@keyframes rezize-glow {
+    0% {
+        transform: scale(1);
+    }
+    /*
+    10%{
+        transform: scale(0.8);
+    }
+    20%{
+        transform: scale(0.7);
+    }
+    30%{
+        transform: scale(0.6);
+    }
+    40%{
+        transform: scale(0.5);
+    }
+    */
+    50%{
+        transform: scale(0.2);
+    }
+    /*
+    60%{
+        transform: scale(0.6);
+    }
+    70%{
+        transform: scale(0.7);
+    }
+    80%{
+        transform: scale(0.8);
+    }
+    90%{
+        transform: scale(0.9);
+    }
+    */
+    100%{
+        transform: scale(1);
+    }
 }
 
 @keyframes bounce {
