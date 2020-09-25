@@ -14,11 +14,12 @@ footer{
     text-align: center;
     margin-top: auto;
     border-radius: 1rem;
+    max-height: 3rem;
 }
 
 footer > p{
-    text-align: center;
-    padding-top: 1rem;
+    text-align: inherit;
+    padding-top: 0.9rem;
     font-size: 1.2vw;
     color: maroon;
     font-weight: bold;
