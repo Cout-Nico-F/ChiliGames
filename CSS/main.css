@@ -47,6 +47,7 @@ footer > p{
 #caronilartButton{
     justify-content: left;
     background-color:rgb(230, 127, 161);
+    
 }
 
 #coutButton{
@@ -57,6 +58,14 @@ footer > p{
 #authors{
     justify-content: center;
     font-size: 3vh;
+}
+
+#footCaronila{
+    background-color:rgb(235, 158, 171);
+}
+
+#footCout{
+    background-color: rgb(127, 143, 241);
 }
 
 @media screen and (max-width: 1260px)
@@ -153,3 +162,4 @@ footer > p{
         transform:translateY(0);
       opacity: 1;
     }
+}

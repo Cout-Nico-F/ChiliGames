@@ -28,21 +28,25 @@
         action="https://formspree.io/xvowneoe"
         method="POST"
         >
-            <label for="nombre">Nombre: </label>
-            <input type="text" name="nombre" required/><br><br>
-            <label for="email">Email: </label>
-            <input type="email" name="email" required/><br><br>
-            <label for="telefono">Telefono: </label>
-            <input type="tel" name="telefono"/><br><br>
-            <label for="fechanacimiento">Fecha de nacimiento: </label>
-            <input type="date" name="fechanacimiento"/><br><br>
-            <label for="mensaje">Mensaje: </label>
-            <textarea name="mensaje" required></textarea><br><br>
-        <br><button type="submit">Enviar</button>
+            <label for="input_name">* Name: </label>
+            <input type="text" name="input_name" required/><br><br>
+            <label for="input_email">* Email: </label>
+            <input type="email" name="input_email" required/><br><br>
+            <label for="input_phone">  Phone Number: </label>
+            <input type="tel" name="input_phone"/><br><br>
+            <label for="input_birthday">  Birthday: </label>
+            <input type="date" name="input_birthday"/><br><br>
+            <label for="input_messaje">  Messaje: </label>
+            <textarea name="messaje" required></textarea><br><br>
+            <div style="display: inline;">
+                <button type="submit">Enviar</button>
+                <label for="">Fields with * are requiered</label>
+            </div>
+        <br>
         </form>
     </div>
     <footer>
-        <p >Derechos reservados @2020 Pagina realizada en el curso Codo a Codo Fullstack phyton 4.0</p>
+        <p>All Rights Reserved @2020</p>
         <br />
     </footer>
 </body>
