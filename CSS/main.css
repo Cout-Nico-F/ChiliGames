@@ -19,7 +19,9 @@ footer{
 footer > p{
     text-align: center;
     padding-top: 1rem;
-    font-size: 2vh;
+    font-size: 1.2vw;
+    color: maroon;
+    font-weight: bold;
 }
 
 .nav_buttons{
@@ -31,7 +33,6 @@ footer > p{
     padding: 1.2vh;
     border-radius: 2vh;
 }
-
 
 #img_ChiliGamesBanner{
     width: 100%;
@@ -71,6 +72,9 @@ footer > p{
             text-align: center;
             font-size: 3.5vw;
         }
+        footer > p{
+            font-size: 3vw;
+        }
     }
 
     @media screen and (min-width: 1260px) and (max-width: 1800px)
@@ -88,6 +92,9 @@ footer > p{
         body > h3{
             text-align: center;
             font-size: 2vw;
+        }
+        footer > p{
+            font-size: 1.3vw;
         }   
     }
 
@@ -106,6 +113,9 @@ footer > p{
         body > h3{
             text-align: center;
             font-size: 2vw;
+        }
+        footer > p{
+            font-size: 1.1vw;
         }
     }
 
