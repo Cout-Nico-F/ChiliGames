@@ -74,6 +74,12 @@ footer > p{
     justify-content: center;
 }
 
+#itchioButton{
+    display: flex;
+    justify-content: center;
+    max-width: 20rem;
+}
+
 @media screen and (max-width: 1260px)
     {
         #iframe_KTCyoutube{
@@ -89,6 +95,11 @@ footer > p{
         }
         footer > p{
             font-size: 3vw;
+        }
+        #itchioButton{
+            display: flex;
+            justify-content: center;
+            max-width: 14rem;
         }
     }
 
