@@ -38,6 +38,7 @@ footer > p{
 #img_ChiliGamesBanner{
     width: 100%;
     border-radius: 4vh;
+    margin: 2px;
 }
 
 #author-buttons{
