@@ -56,11 +56,6 @@ footer > p{
     background-color: rgb(117, 199, 231);
 }
 
-#authors{
-    justify-content: center;
-    font-size: 3vh;
-}
-
 #footCaronila{
     background-color:rgb(235, 158, 171);
 }
@@ -101,6 +96,10 @@ footer > p{
             justify-content: center;
             max-width: 14rem;
         }
+        #authors{
+            justify-content: center;
+            font-size: 3.5vw;
+        }
     }
 
     @media screen and (min-width: 1260px) and (max-width: 1800px)
@@ -121,6 +120,10 @@ footer > p{
         }
         footer > p{
             font-size: 1.3vw;
+        }
+        #authors{
+            justify-content: center;
+            font-size: 2vw;
         }   
     }
 
@@ -142,6 +145,10 @@ footer > p{
         }
         footer > p{
             font-size: 1.1vw;
+        }
+        #authors{
+            justify-content: center;
+            font-size: 1.5vw;
         }
     }
 
