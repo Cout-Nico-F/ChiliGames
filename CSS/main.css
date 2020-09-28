@@ -25,6 +25,10 @@ footer > p{
     font-weight: bold;
 }
 
+body > h3{
+    font-family: 'Bangers', cursive;
+}
+
 .nav_buttons{
     margin: auto;
     background-color:sandybrown;
@@ -39,6 +43,10 @@ footer > p{
     width: 100%;
     border-radius: 4vh;
     margin: 2px;
+}
+
+#authors{
+    font-family: 'Barlow', sans-serif;
 }
 
 #author-buttons{
